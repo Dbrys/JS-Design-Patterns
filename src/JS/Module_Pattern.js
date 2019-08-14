@@ -9,7 +9,7 @@ const CalculatorModule = function(eq){
    //private members 
    const eqCtl = document.getElementById(eq);
 
-   return{
+   return{ 
        //Public 
        add: function(x,y){
          let val = x + y; 
