@@ -1,3 +1,5 @@
+
+
 // Design with prototype patter
 
 console.log("In Prototype")
@@ -10,6 +12,9 @@ console.log("In Prototype")
     //Module calculator pattern from other JS file
     const c2 = new CalculatorModule('Output'); 
     c2.add(3,5);
+
+    //Revealing module pattern
+    const c3 = caclulatorRevealingModule.add(7,3);
  }
 
 
