@@ -2,9 +2,7 @@
 
 // Design with prototype patter
 
-console.log("In Prototype")
  window.onload = function(){
-    console.log("In Prototype");
     const c = new Calculator('eq'); 
     c.add(2,2);
     
@@ -15,6 +13,10 @@ console.log("In Prototype")
 
     //Revealing module pattern
     const c3 = caclulatorRevealingModule.add(7,3);
+
+    //Revealing Prototype Pattern 
+    const calc4 = new CalculatorRevealProto('protoRevealOut')
+    calc4.add(5,10);
  }
 
 
